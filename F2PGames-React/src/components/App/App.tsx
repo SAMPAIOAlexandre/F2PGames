@@ -27,14 +27,14 @@ function App() {
 
 	return (
 		<>
-			<h1>Vite + React</h1>
-			<div className="card"></div>
+			<h1 className="text-4xl text-center">Le site de Jeux Vidéo</h1>
 			<p className="read-the-docs">ok</p>
-			<ul>
+			<ul className="grid grid-cols-2">
 				{games.map((game) => (
-					<li key={game.id}>{game.title}</li>
+					<li className= "m-auto" key={game.id}>{game.title}</li>
 				))}
 			</ul>
+			
 		</>
 	);
 }
