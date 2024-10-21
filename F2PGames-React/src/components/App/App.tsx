@@ -29,6 +29,7 @@ function App() {
 		<>
 			<h1 className="text-4xl text-center">Le site de Jeux Vidéo</h1>
 			<p className="read-the-docs">ok</p>
+			<p className="read-the-docs">ok 123</p>
 			<ul className="grid grid-cols-2">
 				{games.map((game) => (
 					<li className= "m-auto" key={game.id}>{game.title}</li>
